@@ -4,25 +4,45 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
 }
 
 .nav-links {
   display: flex;
-  gap: 15px;
+  gap: 20px; 
 }
 
-.nav-links a, .nav-links button {
-  color: white;
-  text-decoration:blueviolet;
+.nav-links a, 
+.nav-links button {
+  color: blueviolet !important; 
+   text-decoration: none !important; 
   transition: color 0.3s;
-  background: wheat;
-  display:flex;
-  justify-content: space-around;
-  border: 10px;
-  cursor: pointer;
+  background-color: white !important; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  display: inline-block; 
+  margin-right: 10px; 
+  border: none; 
 }
 
-.nav-links a:hover, .nav-links button:hover {
-  color: #ffcc00; /* Change color on hover */
+.nav-links a:hover, 
+.nav-links button:hover {
+  color: #ffcc00 !important; /* Change text color on hover */
+}
+
+.container {
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px; /* Space between cards */
+}
+
+.log-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
