@@ -1,0 +1,28 @@
+.navbar {
+  background: hsl(111, 88%, 47%);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a, .nav-links button {
+  color: white;
+  text-decoration:blueviolet;
+  transition: color 0.3s;
+  background: wheat;
+  display:flex;
+  justify-content: space-around;
+  border: 10px;
+  cursor: pointer;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+  color: #ffcc00; /* Change color on hover */
+}
